@@ -1,0 +1,100 @@
+
+body{
+background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
+background-position: 100% 100%;
+background-repeat:no-repeat;
+margin:0px;
+margin-bottom: 0px;
+background-size: cover;
+font-family: "Exo 2", sans-serif;
+width: 98vw;
+height: 113vh;
+border: 0px;
+}
+form{
+    background-color: azure;
+width: 350px;
+height: 500px;
+border-radius: 3px;
+padding: 10px 20px 30px 10px;
+position: absolute;
+right: 100px;
+top: 50px;
+}
+form h1{
+    text-align: center;
+    width: 200px;
+    margin: 0px auto;
+}
+label{
+    display: block;
+}
+select,input{
+    width: 300px;
+    height: 30px;
+    margin-top:9px ;
+    margin-bottom:20px ;
+}
+.radio ,input{
+    width: auto;
+    height: auto;
+}
+.radio{
+    width: 4px;
+}
+button{
+    display: block;
+    margin: auto;
+color: rgb(19, 18, 18);
+background-color: rgb(235, 146, 31);
+border-radius: 20px;
+padding: 13px;
+border:none;
+margin-top: 20px;
+margin-left: 20px;
+}
+.main_form{
+   /*border: 1px solid black; */
+   width: 300px;
+   margin-left: 30px;
+}
+.departure{
+    margin-left: 19px;
+}
+img{
+    width:400px;
+    position: absolute;
+    animation: float 3s infinite ease-in-out;
+}
+.img1{
+    top:100px;
+}
+.img2{
+    top: 300px;
+    left:300px;
+}
+@keyframes float {
+0%{
+  transform:translateY(0px);
+
+}
+50%{
+transform:translateY(25px);
+}
+/* 100%{
+    transform:translateY(-5px);
+} */
+}
+
+/* dont write this 
+@keyframes float2{
+0%{
+    transform:rotateZ(30deg)
+}
+50%{
+    transform: translateY(25px);
+}
+/*100%(
+    transform:translateY(-5px)}*/
+
+
